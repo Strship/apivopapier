@@ -18,7 +18,7 @@ const pool = new Pool({
   user: process.env.PG_USER || 'postgres',
   host: process.env.PG_HOST || '6.tcp.eu.ngrok.io',
   port: parseInt(process.env.PG_PORT) || 19467,
-  password: process.env.PG_PASSWORD || 'your_password', // Remplacez par votre mot de passe ou utilisez une variable
+  password: process.env.PG_PASSWORD || 'database2025@', 
   database: process.env.PG_DATABASE || 'vopapier',
   ssl: { rejectUnauthorized: false }, // Nécessaire pour ngrok
 });
